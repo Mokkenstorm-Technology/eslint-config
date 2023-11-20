@@ -1,0 +1,24 @@
+{
+  "name": "@riotbyte/eslint-config",
+  "version": "0.0.1",
+  "description": "Custom linting rules for RiotByte",
+  "contributors": [
+    {
+      "name": "Niels Mokkenstorm",
+      "email": "niels@mokkenstorm.dev",
+      "url": "https://github.com/nmokkenstorm"
+    },
+    {
+      "name": "Maarten Nusteling",
+      "email": "maarten@nusteling.solutions",
+      "url": "https://github.com/nusje2000"
+    }
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1"
+  }
+}
