@@ -1,6 +1,5 @@
 {
   "name": "@riotbyte/eslint-config",
-  "version": "0.0.1",
   "description": "Custom linting rules for RiotByte",
   "contributors": [
     {
@@ -20,5 +19,9 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mokkenstorm-Technology/eslint-config"
   }
 }
