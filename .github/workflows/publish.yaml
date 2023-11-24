@@ -28,7 +28,7 @@ jobs:
       - run: npm version $RELEASE_VERSION
         env:
           RELEASE_VERSION: ${{ github.event.inputs.version }}
-      - run: npm publish
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Push new version
