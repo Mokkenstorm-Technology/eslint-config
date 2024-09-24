@@ -1,7 +1,7 @@
 {
   "name": "@riotbyte/eslint-config",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.3.1",
   "description": "Custom linting rules for RiotByte",
   "prettier": "@riotbyte/prettier-config",
   "contributors": [
